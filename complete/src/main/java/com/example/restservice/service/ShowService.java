@@ -24,8 +24,8 @@ public class ShowService {
 
 
         Show show1 = new Show(1,"yukyuks","may 6 2022",new Address(223,"Other street","MTL"), Arrays.asList(lineUp1));
-        Show show2 = new Show(2,"comedyStore","march 3 2022",new Address(123,"goodStreet","MTL"), Arrays.asList(lineUp1));
-        Show show3 = new Show(3,"clubLaughter","june 12 2022",new Address(432,"Top Street","MTL"), Arrays.asList(lineUp1));
+        Show show2 = new Show(2,"comedyStore","march 3 2022",new Address(123,"goodStreet","MTL"), Arrays.asList(lineUp2));
+        Show show3 = new Show(3,"clubLaughter","june 12 2022",new Address(432,"Top Street","MTL"), Arrays.asList(lineUp3));
 
         shows.add(show1);
         shows.add(show2);
