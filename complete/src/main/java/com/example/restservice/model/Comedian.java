@@ -1,9 +1,15 @@
-package com.example.restservice;
+package com.example.restservice.model;
 
-public class Person {
+import java.util.List;
 
+public class Comedian  {
     private String fName;
     private String lName;
+
+    public Comedian(String fName, String lName) {
+        this.fName = fName;
+        this.lName = lName;
+    }
 
     public String getfName() {
         return fName;
@@ -23,7 +29,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Employee{" +
                 "fName='" + fName + '\'' +
                 ", lName='" + lName + '\'' +
                 '}';
